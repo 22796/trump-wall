@@ -1,0 +1,49 @@
+body{
+  /*margin: 0;*/
+  background: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  color: black;
+}
+
+#upload{
+float: right;
+margin-top: -50px; 
+}
+
+nav{
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 95%;
+  padding-bottom: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
+
+  background-color: #9E9E9E;
+  color: white;
+  opacity: 0.8;
+}
+nav a{
+font-family: 'Righteous', cursive;
+color: black;
+border-style: solid;
+border-width: 2px;
+border-width: 4px;
+padding: 10px;
+margin-right: 30px;
+font-size: 40px;
+transition: 1s;
+}
+
+nav a:hover{
+color: white;
+}
+
+a{
+  text-decoration: none;
+}
